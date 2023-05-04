@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: calc(100vh - 80px); 
+  height: calc(100vh - 80px);
   margin-bottom: 200px;
 }
 
@@ -45,4 +45,60 @@
 
 .socialLink i {
   font-size: 1rem;
+}
+
+@media only screen and (max-width: 420px) {
+  .main {
+    width: 100%;
+    margin-bottom: 100px;
+  }
+
+  .heading {
+    font-size: 72px;
+  }
+
+  .secondaryHeading {
+    font-size: 20px;
+  }
+
+  .socialMedia {
+    width: 8rem;
+  }
+
+  .socialLink {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  .socialLink i {
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .main {
+    width: 100%;
+    margin-bottom: 100px;
+  }
+
+  .heading {
+    font-size: 48px;
+  }
+
+  .secondaryHeading {
+    font-size: 16px;
+  }
+
+  .socialMedia {
+    width: 6rem;
+  }
+
+  .socialLink {
+    width: 1rem;
+    height: 1rem;
+  }
+
+  .socialLink i {
+    font-size: 0.6rem;
+  }
 }

@@ -40,7 +40,6 @@ li {
   margin: 0;
   font-family: "Roboto Mono";
   font-size: 1.5rem;
-  /* color: white; */
 }
 
 a {
@@ -55,4 +54,34 @@ active {
 
 a:hover {
   color: #eb9230;
+}
+
+@media screen and (max-width: 420px) {
+  nav {
+    width: 100%;
+  }
+
+  li {
+    font-size: 1.2rem;
+  }
+
+  a {
+    margin: 0 0.5rem;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  nav {
+    width: 100%;
+  }
+
+  li {
+    font-size: 1rem;
+  }
+
+  a {
+    margin: 0 0.5rem;
+    font-size: 0.8rem;
+  }
 }

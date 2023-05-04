@@ -55,3 +55,100 @@
 .list {
   margin-top: 40px;
 }
+
+@media only screen and (max-width: 420px) {
+  .contactContainer {
+    flex-direction: column;
+    height: auto;
+    padding: 50px;
+  }
+
+  .imageContainer {
+    width: 100%;
+    height: 300px;
+  }
+
+  .image {
+    width: 100%;
+  }
+
+  .textContainer {
+    width: 100%;
+    padding: 0;
+  }
+
+  .heading {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .text {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .link {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  .list {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .contactContainer {
+  flex-direction: column;
+  height: auto;
+  padding: 50px;
+  }
+  
+  .imageContainer {
+  width: 100%;
+  height: 250px;
+  }
+  
+  .image {
+  width: 100%;
+  }
+  
+  .textContainer {
+  width: 100%;
+  padding: 0;
+  }
+  
+  .heading {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+  }
+  
+  .text {
+  font-size: 14px;
+  text-align: center;
+  }
+  
+  .link {
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  }
+  
+  .list {
+  flex-direction: column;
+  margin-top: 20px;
+  }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
