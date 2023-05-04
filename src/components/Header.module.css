@@ -1,0 +1,58 @@
+header {
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  position: sticky;
+  top: 0;
+  transition: all 0.3s ease;
+}
+
+.sticky {
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid black;
+  backdrop-filter: blur(5px);
+}
+
+nav {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+li {
+  margin: 0;
+  font-family: "Roboto Mono";
+  font-size: 1.5rem;
+  /* color: white; */
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  margin: 0 1rem;
+}
+
+active {
+  color: #eb9230;
+}
+
+a:hover {
+  color: #eb9230;
+}

@@ -1,0 +1,49 @@
+.work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 150px;
+}
+
+.title {
+  font-size: 36px;
+  font-family: "Poppins", Sans-serif;
+  font-weight: 600;
+  margin-bottom: 50px;
+  color: #fff;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.item {
+  margin: 20px;
+  text-align: center;
+}
+
+.image {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border: 0px solid #eb9230;
+  border-radius: 5px;
+  transition: box-shadow 0.3s ease;
+}
+
+.image:hover {
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  transform: scale(1.5);
+  transition: all 0.3s ease-in-out;
+}
+
+.description {
+  font-family: "Roboto Mono", Sans-serif;
+  font-size: 19px;
+  width: 300px;
+  color: #fff;
+  margin-top: 10px;
+  padding-left: 15px;
+}
