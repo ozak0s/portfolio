@@ -48,8 +48,31 @@
   padding-left: 15px;
 }
 
+@media only screen and (min-width: 769px) {
+  .gallery {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+  }
+
+  .item {
+    margin: 20px;
+  }
+
+  .image {
+    width: 100%;
+    height: auto;
+  }
+
+  .description {
+    width: 100%;
+    font-size: 19px;
+    padding-left: 0;
+    text-align: center;
+  }
+}
+
 /* Media query for screens less than 420px */
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 426px) {
   .gallery {
     grid-template-columns: 1fr;
   }
@@ -71,7 +94,7 @@
   }
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 376px) {
   .gallery {
     grid-template-columns: 1fr;
   }

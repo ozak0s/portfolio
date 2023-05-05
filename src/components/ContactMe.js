@@ -22,14 +22,14 @@ const ContactMe = () => {
           <span style={{ color: "#A881DE", fontWeight: 600 }}>
             custom design
           </span>
-          ,{" "}
+          , a{" "}
           <span style={{ color: "#ECDA10", fontWeight: 600 }}>
-            website refresh
+            new application
           </span>
           , or just need some advice on your next project, I'm here to help.
           Please don't hesitate to{" "}
           <span style={{ color: "#eb9230", fontWeight: 600 }}>contact me</span>{" "}
-          using the below. I look forward to hearing from you!
+          using the information below. I look forward to hearing from you!
         </p>
         <ul className={classes.list}>
           <li className={classes.link}>

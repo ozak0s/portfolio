@@ -1,6 +1,7 @@
-header {
+.header {
   display: flex;
   position: fixed;
+
   justify-content: center;
   align-items: center;
   height: 3rem;
@@ -13,6 +14,7 @@ header {
   top: 0;
   left: 0;
   right: 0;
+  width: 100%;
   z-index: 999;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   border-bottom: 1px solid black;
@@ -56,7 +58,22 @@ a:hover {
   color: #eb9230;
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 769px) {
+  nav {
+    width: 80%;
+  }
+
+  li {
+    font-size: 1.2rem;
+  }
+
+  a {
+    margin: 0 0.5rem;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 426px) {
   nav {
     width: 100%;
   }
@@ -71,7 +88,7 @@ a:hover {
   }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 376px) {
   nav {
     width: 100%;
   }

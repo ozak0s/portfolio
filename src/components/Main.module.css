@@ -47,7 +47,35 @@
   font-size: 1rem;
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 769px) {
+  .main {
+    width: 100%;
+    margin-bottom: 150px;
+  }
+
+  .heading {
+    font-size: 120px;
+  }
+
+  .secondaryHeading {
+    font-size: 24px;
+  }
+
+  .socialMedia {
+    width: 8rem;
+  }
+
+  .socialLink {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  .socialLink i {
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 426px) {
   .main {
     width: 100%;
     margin-bottom: 100px;
@@ -75,7 +103,7 @@
   }
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 376px) {
   .main {
     width: 100%;
     margin-bottom: 100px;
@@ -91,6 +119,7 @@
 
   .socialMedia {
     width: 6rem;
+    margin-right: 30px;
   }
 
   .socialLink {
