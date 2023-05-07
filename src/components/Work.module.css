@@ -118,3 +118,9 @@
     text-align: center;
   }
 }
+
+@media only screen and (max-width: 376px) {
+  .description {
+    padding-left: 30px;
+  }
+}
