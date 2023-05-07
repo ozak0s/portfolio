@@ -50,7 +50,7 @@ a {
   margin: 0 1rem;
 }
 
-active {
+a:active {
   color: #eb9230;
 }
 
@@ -89,6 +89,21 @@ a:hover {
 }
 
 @media screen and (max-width: 376px) {
+  nav {
+    width: 100%;
+  }
+
+  li {
+    font-size: 1rem;
+  }
+
+  a {
+    margin: 0 0.5rem;
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
   nav {
     width: 100%;
   }
