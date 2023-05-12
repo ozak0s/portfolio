@@ -2,12 +2,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 800px;
-  padding: 0 100px;
+  width: 80%;
+  height: auto;
+  margin-bottom: 200px;
 }
 
 .imageContainer {
-  flex: 1;
+  /* flex: 1; */
   width: 50%;
   height: 400px;
   background-size: cover;
@@ -15,16 +16,16 @@
 }
 
 .image {
-  width: 400px;
-  height: fit-content;
+  max-width: 100%;
+  max-height: 100%;
   border-radius: 5px;
   transition: box-shadow 0.3s ease;
 }
 
 .textContainer {
   flex: 1;
-  padding: 0 50px 50px;
-  margin-bottom: 50px;
+  /* padding: 0 50px 50px; */
+  /* margin-bottom: 50px; */
 }
 
 .heading {
@@ -41,6 +42,7 @@
   font-family: "Roboto Mono", Sans-serif;
   font-size: 19px;
   line-height: 1.3em;
+  margin-block: 0 0;
 }
 
 .link {
@@ -56,19 +58,51 @@
   margin-top: 40px;
 }
 
+@media only screen and (max-width: 1440px) {
+  .imageContainer {
+    width: 40%;
+    height: auto;
+    padding-right: 30px;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .contactContainer {
+    width: 90%;
+    height: auto;
+  }
+
+  .imageContainer {
+    width: 50%;
+    height: auto;
+    padding-right: 30px;
+  }
+
+  .textContainer {
+    height: auto;
+    margin-bottom: 0px;
+  }
+
+  .heading {
+    margin-bottom: 10px;
+  }
+
+  .text {
+    font-size: 16px;
+  }
+}
+
 @media only screen and (max-width: 769px) {
   .contactContainer {
     flex-direction: column;
     height: auto;
-    padding: 50px;
+    /* padding: 50px; */
   }
 
   .imageContainer {
-    height: 300px;
-  }
-
-  .image {
-    width: 100%;
+    width: 60%;
+    padding-right: 0px;
+    margin-bottom: 20px;
   }
 
   .textContainer {
@@ -77,10 +111,9 @@
   }
 
   .heading {
-    order: 1;
     font-size: 36px;
     text-align: center;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
   }
 
   .text {
@@ -105,16 +138,13 @@
   .contactContainer {
     flex-direction: column;
     height: auto;
-    padding: 50px;
+    /* padding: 50px; */
   }
 
   .imageContainer {
-    width: 100%;
-    height: 300px;
-  }
-
-  .image {
-    width: 100%;
+    width: 70%;
+    height: auto;
+    margin-bottom: 30px;
   }
 
   .textContainer {
@@ -125,7 +155,7 @@
   .heading {
     font-size: 36px;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 
   .text {
@@ -148,13 +178,15 @@
 @media only screen and (max-width: 376px) {
   .contactContainer {
     flex-direction: column;
+    align-items: center;
     height: auto;
-    padding: 50px;
+    margin: 0 20px 50px;
   }
 
   .imageContainer {
-    width: 100%;
-    height: 250px;
+    width: 80%;
+    height: auto;
+    padding-right: 0px;
   }
 
   .image {
@@ -162,14 +194,17 @@
   }
 
   .textContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
-    padding: 0;
+    /* padding: 0; */
   }
 
   .heading {
     font-size: 30px;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
   }
 
   .text {
@@ -194,15 +229,10 @@
   .contactContainer {
     flex-direction: column;
     height: auto;
-    padding: 20px;
   }
 
   .text {
-    display: inline-block;
-    margin-block-end: 0px;
-    margin-left: 20px;
     font-size: 14px;
     text-align: center;
-    width: 250px;
   }
 }

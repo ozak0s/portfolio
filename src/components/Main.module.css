@@ -89,9 +89,7 @@
     font-size: 20px;
   }
 
-  .socialMedia {
-    width: 8rem;
-  }
+ 
 
   .socialLink {
     width: 1.5rem;
@@ -115,11 +113,6 @@
 
   .secondaryHeading {
     font-size: 16px;
-  }
-
-  .socialMedia {
-    width: 6rem;
-    margin-right: 30px;
   }
 
   .socialLink {

@@ -1,7 +1,6 @@
 .header {
   display: flex;
   position: fixed;
-
   justify-content: center;
   align-items: center;
   height: 3rem;
@@ -56,6 +55,12 @@ a:active {
 
 a:hover {
   color: #eb9230;
+}
+
+@media screen and (max-width: 1280px) {
+  nav {
+    width: 80%;
+  }
 }
 
 @media screen and (max-width: 769px) {
