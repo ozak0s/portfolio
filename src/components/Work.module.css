@@ -1,5 +1,5 @@
 .work {
-  width: 60%;
+  width: 90%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,14 +17,15 @@
 .gallery {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
+  /* gap: 20px; */
 }
 
 .item {
+  width: 70%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* margin: 20px; */
+  margin-bottom: 30px;
   text-align: center;
 }
 
@@ -46,7 +47,7 @@
 .description {
   font-family: "Roboto Mono", Sans-serif;
   font-size: 19px;
-  width: 300px;
+  width: 100%;
   color: #fff;
   margin-top: 10px;
   /* padding-left: 15px; */
@@ -72,8 +73,10 @@
   }
 
   .gallery {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
     gap: 20px;
+
+    justify-items: center;
   }
 
   .item {
@@ -101,6 +104,7 @@
 
   .gallery {
     grid-template-columns: 1fr;
+    justify-items: center;
   }
 
   .title {
@@ -130,6 +134,7 @@
   }
   .gallery {
     grid-template-columns: 1fr;
+    justify-items: center;
   }
 
   .item {
@@ -148,5 +153,3 @@
     text-align: center;
   }
 }
-
-

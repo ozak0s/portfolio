@@ -17,12 +17,13 @@ const Expertise = () => {
           <p>
             Over 1 year of experience as a freelancer with{" "}
             <span style={{ color: "#E21C21", fontWeight: 600 }}>HTML</span>,{" "}
-            <span style={{ color: "#A881DE", fontWeight: 600 }}>CSS</span> and{" "}
+            <span style={{ color: "#A881DE", fontWeight: 600 }}>CSS</span>{" "}
             <span style={{ color: "#ECDA10", fontWeight: 600 }}>
               Javascript
             </span>{" "}
+            <span style={{ color: "#79CFE3", fontWeight: 600 }}>ReactJs</span>{" "}
             and{" "}
-            <span style={{ color: "#79CFE3", fontWeight: 600 }}>ReactJS</span>.
+            <span style={{ color: "#1ab71e", fontWeight: 600 }}>NextJs</span>.{" "}
             Basic knowledge of{" "}
             <span style={{ color: "#eb9230", fontWeight: 600 }}>Python</span>{" "}
             and continously evolving skills.

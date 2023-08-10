@@ -1,6 +1,14 @@
 import React from "react";
 import styles from "./Work.module.css";
-import { dragontale, foodys, forkify, reduxCart } from "../img";
+import {
+  dragontale,
+  foodys,
+  forkify,
+  reduxCart,
+  beachaps,
+  eAdmin,
+  eShop,
+} from "../img";
 
 const workItems = [
   {
@@ -10,20 +18,38 @@ const workItems = [
     link: "https://nikostses.wixsite.com/dragontale",
   },
   {
+    image: `${beachaps}`,
+    alt: "Beach Apartments",
+    description: `Rental beach apartments website with React Routing & React Context`,
+    link: "https://beach-apartments.netlify.app/",
+  },
+  {
+    image: `${eAdmin}`,
+    alt: "Admin Eshop managing product page",
+    description: `E-Commerce Admin Managing Page made with Next.js and tailwind using MongoDB`,
+    link: "https://admin-page-xi-two.vercel.app/",
+  },
+  {
+    image: `${eShop}`,
+    alt: "Eshop front-end web page",
+    description: `E-commerce front-end webpage made with Next.js using styled components`,
+    link: "https://white-llamma-shop.netlify.app/",
+  },
+  {
     image: `${foodys}`,
-    alt: "Work item 2",
-    description: "Food Delivery app made with ReactJS",
+    alt: "food delivery application",
+    description: "Food Delivery app made with ReactJs",
     link: "https://main--foodys-nt.netlify.app/",
   },
   {
     image: `${forkify}`,
-    alt: "Work item 3",
+    alt: "Food recipe application",
     description: "Food recipe app created with Javascript and CSS",
     link: "https://forkify-nt.netlify.app",
   },
   {
     image: `${reduxCart}`,
-    alt: "Work item 4",
+    alt: "Sample eshop application",
     description: "Sample e-shop app made with React and Redux",
     link: "https://redux-cart-nt.netlify.app",
   },

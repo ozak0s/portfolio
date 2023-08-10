@@ -2,7 +2,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0px 10% 0px 10%;
+  justify-items: center;
+  margin: 0px 10%;
 }
 
 .box {
